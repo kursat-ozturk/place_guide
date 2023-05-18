@@ -1,16 +1,12 @@
 # place_guide
 
-A new Flutter project.
 
-## Getting Started
+Roman Just Codes Flutter Codelabs Project 2
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A simple 3-page Flutter Application / Bridges of the World (Landing Page / Bonus labs: Splash Screen and Details Page)
+Creating Flutter User interfaces with ease
+Common Flutter Layout strategies using just core widgets
+Creating custom Flutter widgets and achieve widget composition
+Creating Dart models to mock up app data
+Importing network images
+Using Material Icon fonts
