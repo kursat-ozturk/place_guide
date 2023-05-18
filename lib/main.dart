@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:place_guide/pages/details_page.dart';
 import 'package:place_guide/pages/landing_page.dart';
-
 import 'models/models.dart';
 
 final Color mainYellow = Color(0xffFFB02F);
