@@ -39,21 +39,21 @@ class DetailsPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 Text(selectedModel!.name!,
-                    style: TextStyle(
+                    style: const TextStyle(
                         color: Colors.white,
                         fontSize: 30,
                         fontWeight: FontWeight.bold)),
                 Text(selectedModel!.location!,
-                    style: TextStyle(color: mainYellow)),
-                SizedBox(height: 20),
+                    style: const TextStyle(color: mainYellow)),
+                const SizedBox(height: 20),
                 Text(selectedModel!.description!,
                     style: TextStyle(color: Colors.white.withOpacity(0.7))),
-                SizedBox(height: 40),
+                const SizedBox(height: 40),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     TextButton(
-                      child: Text('View Comments',
+                      child: const Text('View Comments',
                           style: TextStyle(color: Colors.white)),
                       onPressed: () {},
                     ),
@@ -66,9 +66,9 @@ class DetailsPage extends StatelessWidget {
                           splashColor: Colors.black.withOpacity(0.1),
                           highlightColor: Colors.black.withOpacity(0.2),
                           child: Container(
-                            padding: EdgeInsets.only(
+                            padding: const EdgeInsets.only(
                                 top: 10, bottom: 10, left: 20, right: 20),
-                            child: Text('Use Itinerary',
+                            child: const Text('Use Itinerary',
                                 style: TextStyle(
                                     color: Colors.black,
                                     fontWeight: FontWeight.bold)),
@@ -84,15 +84,15 @@ class DetailsPage extends StatelessWidget {
           AppBar(
             elevation: 0,
             backgroundColor: Colors.transparent,
-            iconTheme: IconThemeData(color: mainYellow),
-            title: Center(
+            iconTheme: const IconThemeData(color: mainYellow),
+            title: const Center(
               child: Icon(Icons.airplanemode_on, color: mainYellow),
             ),
             actions: [
               Container(
-                margin: EdgeInsets.only(right: 10),
+                margin: const EdgeInsets.only(right: 10),
                 child: IconButton(
-                  icon: Icon(Icons.favorite, color: mainYellow),
+                  icon: const Icon(Icons.favorite, color: mainYellow),
                   onPressed: () {},
                 ),
               ),

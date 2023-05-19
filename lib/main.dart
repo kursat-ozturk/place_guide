@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:place_guide/pages/details_page.dart';
-import 'package:place_guide/pages/landing_page.dart';
+import 'package:place_guide/pages/splash_page.dart';
 import 'models/models.dart';
 
-final Color mainYellow = Color(0xffFFB02F);
-final Color primaryGray = Color(0xff313131);
-final Color secondaryGray = Color(0xff1C1C1C);
-final Color lightGray = Color(0xff3B3B3b);
+const Color mainYellow = Color(0xffFFB02F);
+const Color primaryGray = Color(0xff313131);
+const Color secondaryGray = Color(0xff1C1C1C);
+const Color lightGray = Color(0xff3B3B3b);
 
 final List<AttractionModel> attractions = [
   AttractionModel(
@@ -47,8 +46,8 @@ final List<BottomBarModel> bottomBarListItems = [
 ];
 
 void main() {
-  runApp(MaterialApp(
-    home: LandingPage(),
+  runApp(const MaterialApp(
+    home: SplashPage(),
     debugShowCheckedModeBanner: false,
   ));
 }

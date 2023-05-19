@@ -10,7 +10,7 @@ class AttractionListView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: ListView.builder(
-        padding: EdgeInsets.only(left: 10),
+        padding: const EdgeInsets.only(left: 10),
         itemCount: attractions.length,
         scrollDirection: Axis.horizontal,
         itemBuilder: (context, index) {

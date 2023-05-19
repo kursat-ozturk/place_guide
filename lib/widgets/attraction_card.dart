@@ -21,7 +21,7 @@ class AttractionCard extends StatelessWidget {
       },
       child: Container(
         width: 180,
-        margin: EdgeInsets.all(10),
+        margin: const EdgeInsets.all(10),
         child: ClipRRect(
           borderRadius: BorderRadius.circular(25),
           child: Stack(
@@ -53,13 +53,13 @@ class AttractionCard extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     Text(attractionModel!.name!,
-                        style: TextStyle(
+                        style: const TextStyle(
                             color: Colors.white,
                             fontSize: 18,
                             fontWeight: FontWeight.bold)),
-                    SizedBox(height: 10),
+                    const SizedBox(height: 10),
                     Text(attractionModel!.location!,
-                        style: TextStyle(color: mainYellow)),
+                        style: const TextStyle(color: mainYellow)),
                   ],
                 ),
               ),

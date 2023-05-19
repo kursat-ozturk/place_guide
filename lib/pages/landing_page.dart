@@ -14,15 +14,16 @@ class LandingPage extends StatelessWidget {
       appBar: AppBar(
         elevation: 0,
         backgroundColor: primaryGray,
-        iconTheme: IconThemeData(color: mainYellow),
-        title: Center(
+        iconTheme: const IconThemeData(color: mainYellow),
+        title: const Center(
           child: Icon(Icons.airplanemode_on, color: mainYellow),
         ),
         actions: [
           Container(
-            margin: EdgeInsets.only(right: 10),
+            margin: const EdgeInsets.only(right: 10),
             child: IconButton(
-              icon: Icon(Icons.notifications_on_outlined, color: Colors.grey),
+              icon: const Icon(Icons.notifications_on_outlined,
+                  color: Colors.grey),
               onPressed: () {},
             ),
           ),
@@ -32,12 +33,13 @@ class LandingPage extends StatelessWidget {
         child: Container(
           color: mainYellow,
           alignment: Alignment.bottomLeft,
-          padding: EdgeInsets.all(20),
-          child: Icon(Icons.airplanemode_on, size: 80, color: Colors.black),
+          padding: const EdgeInsets.all(20),
+          child:
+              const Icon(Icons.airplanemode_on, size: 80, color: Colors.black),
         ),
       ),
       body: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           gradient: LinearGradient(
             colors: [
               primaryGray,
@@ -47,7 +49,7 @@ class LandingPage extends StatelessWidget {
             end: Alignment.bottomCenter,
           ),
         ),
-        child: Column(
+        child: const Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             HeaderWidget(),

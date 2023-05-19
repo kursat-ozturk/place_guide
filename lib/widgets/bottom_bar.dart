@@ -11,13 +11,13 @@ class BottomBarWidget extends StatefulWidget {
 }
 
 class _BottomBarWidgetState extends State<BottomBarWidget> {
-  List<BottomBarModel> _bottomBarItems = bottomBarListItems;
+  final List<BottomBarModel> _bottomBarItems = bottomBarListItems;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(top: 20, bottom: 20),
-      padding: EdgeInsets.all(20),
+      margin: const EdgeInsets.only(top: 20, bottom: 20),
+      padding: const EdgeInsets.all(20),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -30,9 +30,9 @@ class _BottomBarWidgetState extends State<BottomBarWidget> {
             ),
             onPressed: () {
               setState(() {
-                _bottomBarItems.forEach((element) {
+                for (var element in _bottomBarItems) {
                   element.isSelected = element == barItemWidget;
-                });
+                }
               });
             },
           );

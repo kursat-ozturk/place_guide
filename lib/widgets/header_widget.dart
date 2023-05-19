@@ -9,7 +9,7 @@ class HeaderWidget extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Padding(
+        const Padding(
           padding: EdgeInsets.only(top: 30, left: 30, right: 30),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -28,15 +28,15 @@ class HeaderWidget extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: EdgeInsets.only(left: 30, right: 30),
+          padding: const EdgeInsets.only(left: 30, right: 30),
           child: Container(
-            padding: EdgeInsets.all(15),
+            padding: const EdgeInsets.all(15),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(50),
               color: lightGray,
             ),
-            margin: EdgeInsets.only(top: 20, bottom: 20),
-            child: Row(
+            margin: const EdgeInsets.only(top: 20, bottom: 20),
+            child: const Row(
               children: [
                 Icon(Icons.search, color: Colors.grey),
                 SizedBox(width: 10),
