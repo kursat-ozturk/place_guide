@@ -10,3 +10,5 @@ Creating custom Flutter widgets and achieve widget composition
 Creating Dart models to mock up app data
 Importing network images
 Using Material Icon fonts
+
+https://github.com/kursat-ozturk/place_guide/assets/69029656/bad23a6b-efb2-48ef-9170-6fecae576446
